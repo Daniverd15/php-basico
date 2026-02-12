@@ -100,7 +100,7 @@
 
 <div class="form-container">
     <h2>Contáctanos</h2>
-    <form action="#" method="POST">
+    <form action="/store" method="GET">
         <div class="form-group">
             <label for="email">Correo electrónico</label>
             <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
