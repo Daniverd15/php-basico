@@ -9,6 +9,9 @@ Route::get('/', function () {
 Route::get('/mi-nombre', function () {
     return view('DANIEL ENRIQUE VILLAMIZAR');
 });
+Route::get('/contactanos', function () {
+    return view('form');
+});
 
 Route::get('/php-basico', function () {
     $name="Daniel Villamizar"; 
@@ -30,20 +33,20 @@ Route::get('/php-basico', function () {
     echo "<br><br><br>##########ESTRUCTURAS DE DATOS##########<br><br>";
 
     $pc = [
-        "name" => "pc Gamr core9",
+        "name" => "Pc Gamer core9",
         "price" => 6000,
         "marca" => "Lenovo"
     ];
 
     $teclado=[
         "name" => "Teclado",
-        "Price" => 200,
+        "price" => 200,
         "marca" => "ASUS"
     ];
 
     $listaProductos = [$pc,$teclado];
 
-    foreach ($teclado as $item){
+    foreach ($listaProductos as $item){
         echo $item['name'] . "<br>";
     }
    
