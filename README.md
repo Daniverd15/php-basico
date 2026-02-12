@@ -1,6 +1,7 @@
 # 🚀 Proyecto Laravel
 
-![Foto de Daniel Enrique Villamizar Ramírez](./WIN_20260212_11_08_32_Pro.jpg)
+<img src="./WIN_20260212_11_08_32_Pro.jpg" width="200" />
+
 
 ## 👨‍💻 Autor
 **Daniel Enrique Villamizar Ramírez**
